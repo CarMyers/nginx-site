@@ -1,7 +1,7 @@
 const searchClient = algoliasearch('TLWRPEGMX3', 'adab2ba851e5172c35418259095c2f7b');
 
 const search = instantsearch({
-indexName: 'Email-Index',
+indexName: 'email-Index',
 searchClient,
 });
 
